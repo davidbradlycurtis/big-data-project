@@ -1,4 +1,4 @@
-# Project Name
+# MLB Pitching - Big Data
 
 ## Contributors 
 * David Curtis
