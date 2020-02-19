@@ -34,10 +34,10 @@
 #### Dylan Rogney
   1. **The question:**  
   2. **My Solution:**  
-    1. Mapper input:   
-    2. Mapper output / Reducer input:  
-    3. Reducer output:   
-    4. My chart:  
+    1. Mapper input:   572761	Groundout	201500001	1	1	0	L	452657	L	TRUE
+    2. Mapper output / Reducer input:  Groundout 452657 (thousdands of times with varying outcomes)
+    3. Reducer output:   Homerun 452657
+    4. My chart:  A pie chart may be interesting, it would display the most common outcomes of an atbat and which category each pitcher falls under
 #### Stephen Burke
   1. **The question:**  For each pitch type what's the max start speed?
   2. **My Solution:**  
