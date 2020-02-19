@@ -17,11 +17,12 @@ for line in s:
     thisKey = pitch_type
     thisValue = 0.0
 
-  # apply the aggregation function
-  #thisValue += float(amount)
-  #thisValue += float (start_speed)
-  if(thisValue < float(start_speed)):
-    thisValue = float(start_speed)
+# apply the aggregation function
+  try:
+    if(thisValue < float(start_speed)):
+      thisValue = float(start_speed)
+  except:
+    thisValue = start_speed
 
 # output the final entry when done
 r.write(str(thisKey) + '\t' + str(thisValue)+'\n')

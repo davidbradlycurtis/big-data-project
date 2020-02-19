@@ -16,3 +16,4 @@ SC	82.6
 SI	105.0
 SL	97.7
 UN	45.0
+pitch_type	start_speed
