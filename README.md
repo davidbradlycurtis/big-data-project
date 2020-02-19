@@ -10,8 +10,11 @@
 * Public Repo: https://github.com/davidbradlycurtis/big-data-project/blob/master/README.md
 * Issues: https://github.com/davidbradlycurtis/big-data-project/issues
 ## Introduction
-Baseball is known as the sport for stats and data nerds, due to the fact that the insane amount of recoreded stats for each game played. Our project hopes to reveal inforpant trends, patterns, and averages that are important to game of baseball. Some of these numbers we will find include the maximum end speed of different types of pitches, and most common outcome of an atbat for each pithcer in the MLB.
+Baseball is known as the sport for stats and data nerds, due to the fact that the insane amount of recoreded stats for each game played. Our project hopes to reveal inforpant trends, patterns, and averages that are important to game of baseball. Some of these numbers we will find include the maximum end speed of different types of pitches, and most common outcome of an atbat for each pithcer in the MLB. 
 ## Data Source
+  This data was collected from the MLB 2015-2018 regular seasons. There are five sets of structured data in csv format, and most of which have between ten and 40 columns. The entire dataset is 838mb in size with over 3 million entries. There are some holes in the data, so it will require some cleaning before consumtion. This dataset is highly valueable, as the information that can be learned could provide teams an edge over their opponents.   
+  
+**Links:**
 * Local: https://github.com/davidbradlycurtis/big-data-project/tree/master/data
 * Original: https://www.kaggle.com/pschale/mlb-pitch-data-20152018#games.csv
 
