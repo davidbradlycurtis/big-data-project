@@ -33,7 +33,7 @@ Baseball is known as the sport for stats and data nerds, due to the fact that th
     3. Reducer output:   
     4. My chart:  
 #### Dylan Rogney
-  1. **The question:**  
+  1. **The question:**  For each pitcher, what is the most common outcome of an atbat?
   2. **My Solution:**  
     1. Mapper input:   572761	Groundout	201500001	1	1	0	L	452657	L	TRUE  
     2. Mapper output / Reducer input:  Groundout 452657 (thousdands of times with varying outcomes)  
