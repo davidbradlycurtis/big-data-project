@@ -39,9 +39,9 @@
     3. Reducer output:   
     4. My chart:  
 #### Stephen Burke
-  1. **The question:**  
+  1. **The question:**  For each pitch type what's the max start speed?
   2. **My Solution:**  
     1. Mapper input:   
     2. Mapper output / Reducer input:  
-    3. Reducer output:   
+    3. Reducer output:
     4. My chart:  
