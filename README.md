@@ -9,7 +9,7 @@
 ## Links
 
 ## Introduction
-
+Baseball is known as the sport for stats and data nerds, due to the fact that the insane amount of recoreded stats for each game played. Our project hopes to reveal inforpant trends, patterns, and averages that are important to game of baseball. Some of these numbers we will find include the maximum end speed of different types of pitches, and most common outcome of an atbat for each pithcer in the MLB.
 ## Data Source
 * Local:
 * Original: https://www.kaggle.com/pschale/mlb-pitch-data-20152018#games.csv
