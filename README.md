@@ -29,12 +29,12 @@ Baseball is known as the sport for stats and data nerds, due to the fact that th
     3. Reducer output:  CH	92.4  
     4. My chart: I will be using a bar graph, as it will be easy to see the differences in speed for each play type.
 #### Cole Houston
-  1. **The question:**  
+  1. **The question:** For each batter, find the total number of groundouts.
   2. **My Solution:**  
-    1. Mapper input:   
-    2. Mapper output / Reducer input:  
-    3. Reducer output:   
-    4. My chart:  
+    1. Mapper input:   572761	Groundout	201500001	1	1	0	L	425657	L	True
+    2. Mapper output / Reducer input:  453923 Groundout
+    3. Reducer output:   PLAYER_ID: 112526       GROUNDOUTS: 23
+    4. My chart:  The large number of players makes finding a viable chart difficult, but a bar graph could work with the player ID as the x axis and their overall groundouts on the y axis.  A scatter plot could also work for this data.
 #### Dylan Rogney
   1. **The question:**  For each pitcher, what is the most common outcome of an atbat?
   2. **My Solution:**  
