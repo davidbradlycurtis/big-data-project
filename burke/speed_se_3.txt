@@ -1,0 +1,35 @@
+AB	92.7	61.8	30.9
+CH	96.7	40.5	56.2
+CU	97.3	39.8	57.5
+EP	83.6	43.9	39.7
+FA	91.5	79.8	11.7
+FC	100.7	59.8	40.9
+FF	105.0	58.4	46.6
+FO	91.3	71.9	19.4
+FS	95.6	66.7	28.9
+FT	101.4	68.2	33.2
+IN	92.1	40.5	51.6
+KC	90.0	51.1	38.9
+KN	81.5	54.0	27.5
+PO	97.3	49.2	48.1
+SC	82.6	64.9	17.7
+SI	101.6	72.3	29.3
+SL	97.7	43.8	53.9
+UN	44.7	32.4	12.3
+pitch_type	max_start_speed	min_end_speed	difference
+CH - Changeup 
+CU - Curveball 
+EP - Eephus* 
+FC - Cutter 
+FF - Four-seam Fastball 
+FO - Pitchout (also PO)* 
+FS - Splitter 
+FT - Two-seam Fastball 
+IN - Intentional ball 
+KC - Knuckle curve 
+KN - Knuckeball 
+PO - Pitchout (also FO)* 
+SC - Screwball* 
+SI - Sinker 
+SL - Slider 
+UN - Unknown*
