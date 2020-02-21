@@ -1,6 +1,6 @@
 s = open("ptss_2.txt","r")
 r = open("ptss_3.txt", "w")
-
+#initalizes variables
 thisKey = ""
 thisValue = 0.0
 
