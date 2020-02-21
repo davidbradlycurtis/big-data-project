@@ -11,4 +11,3 @@ for line in input_data:
 
 input_data.close()
 output_data.close()
-print("Mapper Complete")

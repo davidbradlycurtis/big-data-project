@@ -6,7 +6,6 @@ unsorted.close()
 dataList.sort()
 
 for line in dataList:
-    #print(line)
     sorted.write(line)
 
 sorted.close()
