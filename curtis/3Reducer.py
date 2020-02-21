@@ -1,5 +1,5 @@
-input_file = open("2.txt","r")
-output_file = open("r.txt", "w")
+input_file = open("2.txt","r") #Opens sorted data
+output_file = open("r.txt", "w") #Writes reducer results to r.txt
 
 thisKey = ""
 maximum = 0.0
@@ -17,14 +17,14 @@ for line in input_file:
     thisKey = pitch_type
     maximum = 0.0
 
-# apply the aggregation function
+# apply the aggregation maximum function
   try:
     if(maximum < float(end_speed)):
       maximum = float(end_speed)
   except:
     maximum = end_speed
 
-# output the final entry when done
+# Output the final entry when done
 output_file.write(str(thisKey) + '\t' + str(maximum)+'\n')
 
 input_file.close()
