@@ -1,28 +1,29 @@
-s = open("02.txt","r")
+s = open("02.txt", "r")
 r = open("03.txt", "w")
 
 thisKey = ""
-thisValue = 0.0
+thisValue = 0
 
 for line in s:
-  data = line.strip().split('\t')
-  paymentType, count = data
+	data = line.strip().split(",")
+	pitcher_id, event = data
 
-  if paymentType != thisKey:
-    if thisKey:
-      # output the last key value pair result
-      r.write(str(thisKey) + '\t' + str(thisValue)+'\n')
+	if event == "Strikeout":
+		if pitcher_id != thisKey:
+			if thisKey:
+				r.write("PLAYER_ID: " + thisKey + "\t" + "Strikeouts: " + str(thisValue) + "\n")
+			thisKey = pitcher_id
+			thisValue = 0
+		thisValue += 1
 
-    # start over when changing keys
-    thisKey = paymentType
-    thisValue = 0.0
+r.write("PLAYER_ID: " + thisKey + "\t" + "Strikeouts: " + str(thisValue)+"\n")
 
-  # apply the aggregation function
-  #thisValue += float(amount)
-  thisValue += float(count)
-
-# output the final entry when done
-r.write(str(thisKey) + '\t' + str(thisValue)+'\n')
 
 s.close()
 r.close()
+
+
+
+
+
+
