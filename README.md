@@ -35,13 +35,13 @@ Baseball is known as the sport for stats and data nerds, due to the fact that th
     2. Mapper output / Reducer input:  453923 Groundout
     3. Reducer output:   PLAYER_ID: 112526       GROUNDOUTS: 23
     4. My chart:  The large number of players makes finding a viable chart difficult, but a bar graph could work with the player ID as the x axis and their overall groundouts on the y axis.  A scatter plot could also work for this data.
-#### Dylan Rogney
-  1. **The question:**  For each pitcher, what is the most common outcome of an atbat?
+#### Dylan Rongey
+  1. **The question:**  For each pitcher, how many strikeouts have they thrown?
   2. **My Solution:**  
     1. Mapper input:   572761	Groundout	201500001	1	1	0	L	452657	L	TRUE  
-    2. Mapper output / Reducer input:  Groundout 452657 (thousdands of times with varying outcomes)  
-    3. Reducer output:   Homerun 452657  
-    4. My chart:  A pie chart may be interesting, it would display the most common outcomes of an atbat and which category each pitcher falls under  
+    2. Mapper output / Reducer input:  Strikeout 452657 (thousdands of times with varying outcomes)  
+    3. Reducer output:   Strikeout 452657  
+    4. My chart:  A bar graph would be intersting because it would allow you to easily compare all the pitchers in the league. 
 #### Stephen Burke
   1. **The question:**  For each pitch type what's the max start speed?
   2. **My Solution:**  
