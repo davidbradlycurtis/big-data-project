@@ -23,7 +23,7 @@ Baseball is known as the sport for stats and data nerds, due to the fact that th
 ## Setup and Execution
 Clone this repository onto your local machine to an accessible location. Once successfully cloned, open the desired contributor's directory in PowerShell as an administrator. Run the mapper, sorter, reducer in order with the following commands:
 * python (mapperFileName)
-* python (sortshuffleFiileName)
+* python (sortshuffleFileName)
 * python (reducerFileName)  
 
 Once these commands have been successfully completed, the corresponding output file will have been created in the directory and will be waiting for review.
