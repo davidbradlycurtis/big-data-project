@@ -63,4 +63,6 @@ Once these commands have been successfully completed, the corresponding output f
     1. Mapper input:   0.416	2.963	92.9	84.1	2305.052	159.235	-25	3.2	23.7	7.665	34.685	-11.96	1.72	3.56	2	-6.409	-136.065	-3.995	101.14	2.28	158.78	50	5.302	4.16	10.93	55	3	C	S	FF	3	0	2015000001	0	0	0	1	0	0	0  
     2. Mapper output / Reducer input:  FF	92.9  
     3. Reducer output: AB	92.4  
-    4. My chart:  Using a bar graph because I'm representing differences in catagorical data  
+  3. My chart:  Using a bar graph because I'm representing differences in catagorical data  
+  **Results:**
+  ![](images/Capture.PNG)
