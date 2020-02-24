@@ -9,14 +9,23 @@
 ## Links
 * Public Repo: https://github.com/davidbradlycurtis/big-data-project/blob/master/README.md
 * Issues: https://github.com/davidbradlycurtis/big-data-project/issues
+
 ## Introduction
-Baseball is known as the sport for stats and data nerds, due to the fact that the insane amount of recorded stats for each game played. Our project hopes to reveal important trends, patterns, and averages that are important to the game of baseball. Some of these numbers we will find include the maximum end speed of different types of pitches, and the most common outcome of an atbat for each pitcher in the MLB. 
+Baseball is known as the sport for stats and data nerds, due to the fact that the insane amount of recorded stats for each game played. Our project hopes to reveal important trends, patterns, and averages that are important to the game of baseball. Some of these numbers we will find include the maximum end speed of different types of pitches, and the most common outcome of an atbat for each pitcher in the MLB.
+
 ## Data Source
   This data was collected from the MLB 2015-2018 regular seasons. There are five sets of structured data in CSV format and most of which have between ten and 40 columns. The entire dataset is 838mb in size with over 3 million entries. There are some holes in the data, so it will require some cleaning before consumption. This dataset is highly valuable, as the information that can be learned could provide teams an edge over their opponents. There are also no known solutions on the internet for the problems pertaining to this dataset.  
   
 **Links:**
 * Local: https://github.com/davidbradlycurtis/big-data-project/tree/master/data
 * Original: https://www.kaggle.com/pschale/mlb-pitch-data-20152018#games.csv
+
+## Setup and Execution
+Clone this repository onto your local machine to an accessible location. Once successfully cloned, open the desired contributor's directory in PowerShell as an administrator. Run the mapper, sorter, reducer in order with the following commands:
+* python (mapperFileName)
+* python (sortshuffleFiileName)
+* python (reducerFileName)
+Once these commands have been successfully completed, the corresponding output file will have been created in the directory and will be waiting for review.
 
 
 ## Big Data Problems
@@ -27,7 +36,10 @@ Baseball is known as the sport for stats and data nerds, due to the fact that th
     1. Mapper input:  2	-6.409	-136.065	-3.995	101.14	2.28	158.78	50	5.302	4.16	10.93	55	3	C	S	FF	3	2015000001	0	0	0	1	0	0  
     2. Mapper output / Reducer input:  PO 84.1  
     3. Reducer output:  CH	92.4  
-    4. My chart: I will be using a bar graph, as it will be easy to see the differences in speed for each play type.
+    4. My chart: I will be using a bar graph, as it will be easy to see the differences in speed end speed for each pitch type.
+  3. **Results:**  
+![Maximum End Speed](images/maximumPitchEndSpeed.png)
+
 #### Cole Houston
   1. **The question:** For each batter, find the total number of groundouts.
   2. **My Solution:**  
@@ -35,6 +47,7 @@ Baseball is known as the sport for stats and data nerds, due to the fact that th
     2. Mapper output / Reducer input:  453923 Groundout
     3. Reducer output:   PLAYER_ID: 112526       GROUNDOUTS: 23
     4. My chart: A large number of players makes finding a viable chart difficult, but a bar graph could work with the player ID as the        x-axis and their overall groundouts on the y-axis.  A scatter plot could also work for this data.
+    
 #### Dylan Rongey
   1. **The question:**  For each pitcher, how many strikeouts have they thrown?
   2. **My Solution:**  
@@ -42,6 +55,7 @@ Baseball is known as the sport for stats and data nerds, due to the fact that th
     2. Mapper output / Reducer input:  Strikeout 452657 (thousands of times with varying outcomes)  
     3. Reducer output:   Strikeout 452657  
     4. My chart:  A bar graph would be interesting because it would allow you to easily compare all the pitchers in the league. 
+    
 #### Stephen Burke
   1. **The question:**  For each pitch type what's the max start speed?
   2. **My Solution:**  
