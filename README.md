@@ -38,7 +38,7 @@ Once these commands have been successfully completed, the corresponding output f
     3. Reducer output:  CH	92.4  
     4. My chart: I will be using a bar graph, as it will be easy to see the differences in speed end speed for each pitch type.
   3. **Results:**  
-![Maximum End Speed](images/maximumPitchEndSpeed.png)
+![](images/maximumPitchEndSpeed.PNG)
 
 #### Cole Houston
   1. **The question:** For each batter, find the total number of groundouts.
